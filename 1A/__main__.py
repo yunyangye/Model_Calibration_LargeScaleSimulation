@@ -10,7 +10,7 @@ import math
 
 number_samples = 1000
 
-climates = ['1A','2A','2B','3A','3B','3C','4A','4B','4C','5A','5B','6A','6B','7','8']
+climates = ['1A']
 vintages = ['Pre1980','Post1980']
 
 # generate sample list

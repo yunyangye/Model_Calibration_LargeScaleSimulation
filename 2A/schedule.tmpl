@@ -1,0 +1,73 @@
+$BLDG_OCC_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_Other$,0.0, !- Field 3
+    Until: $End_time_Other$,1.0,   !- Field 4
+    Until: 24:00,0.0,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.0;        !- Field 7
+
+$BLDG_LIGHT_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_Other$,0.05, !- Field 3
+    Until: $End_time_Other$,0.95,   !- Field 4
+    Until: 24:00,0.05,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.05;        !- Field 7
+
+$BLDG_EQUIP_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_Other$,0.4, !- Field 3
+    Until: $End_time_Other$,1.0,   !- Field 4
+    Until: 24:00,0.4,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.4;        !- Field 7
+
+$INFIL_QUARTER_ON_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_HVAC$,1.0, !- Field 3
+    Until: $End_time_HVAC$,0.25,   !- Field 4
+    Until: 24:00,1.0,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,1.0;        !- Field 7
+
+$CLGSETP_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_HVAC$,26.7, !- Field 3
+    Until: $End_time_HVAC$,24.0,   !- Field 4
+    Until: 24:00,26.7,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,26.7;        !- Field 7
+
+$HTGSETP_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_HVAC$,15.6, !- Field 3
+    Until: $End_time_HVAC$,21.0,   !- Field 4
+    Until: 24:00,15.6,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,15.6;        !- Field 7
+
+$HVACOperationSchd$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_HVAC$,0.0, !- Field 3
+    Until: $End_time_HVAC$,1.0,   !- Field 4
+    Until: 24:00,0.0,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.0;        !- Field 7
+
+$MinOA_MotorizedDamper_Sched$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_HVAC$,0.0, !- Field 3
+    Until: $End_time_HVAC$,1.0,   !- Field 4
+    Until: 24:00,0.0,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.0;        !- Field 7
+
+$BLDG_SWH_SCH$
+    For: Weekdays SummerDesignDay, !- Field 2
+    Until: $Start_time_Other$,0.05, !- Field 3
+    Until: $End_time_Other$,0.50,   !- Field 4
+    Until: 24:00,0.05,        !- Field 5
+    For: AllOtherDays,       !- Field 6
+    Until: 24:00,0.05;        !- Field 7
+
+$No_Other_Schedule_Tmpl$
